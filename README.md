@@ -48,10 +48,12 @@ CY8CKIT-062-4343W ), press and release the SW4 (custom app button) button.
         - Error =  Out Endpoint is not found.
 
     If the KitProg2 FW is uploaded to MiniProg4 - to restore the device functionality:
+    
         1. Switch the device to Bootloader mode:
             - unplug MiniProg4 from the USB
             - press the Mode Switch button (SW1)
             - plug in a USB cable with a pressed button
             - observe LED1 is blinking to monitor Bootloader mode
             - release the button.
+    
         2. Perform the "--update-kp3" command as described above.
