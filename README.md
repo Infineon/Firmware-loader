@@ -14,7 +14,7 @@ On Linux OS, run the udev_rules\install_rules.sh script before the first run of 
 
 **Command-line Options**
 
-**No arguments or --help** - Displays the list of supported commands with their descriptions.
+**--help (or no arguments)** - Displays the list of supported commands with their descriptions.
 
 **--device-list** – Displays the list of connected devices.
 
