@@ -18,9 +18,9 @@ On Linux OS, run the udev_rules\install_rules.sh script before the first run of 
 
 **--device-list** – Displays the list of connected devices.
 
-**--update-kp3 [device-name]** – Updates the device FW to KitProg3 with a specified name.
+**--update-kp3 [device-name]** – Updates the device FW to KitProg3.
 
-**--update-kp2 [device-name]** – Updates the device FW to KitProg2 with a specified name.
+**--update-kp2 [device-name]** – Updates the device FW to KitProg2.
 
 **--uid-set [device-name]** – Allocates a unique ID on a specified CYW943012P6EVB_01 kit.
 
