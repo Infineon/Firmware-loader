@@ -8,7 +8,7 @@ These three archives are available, supporting three OSs:
 - fw-loader-2.1.0.51-macos.zip
 - fw-loader-2.1.0.51-windows.zip
 
-Download and unpack the corresponding zip archive on your machine. Open a command window in the tool's bin directory, and follow the instructions below.
+Download the repo and unpack the zip archive for your OS. Open a command window in the tool's bin directory, and follow the instructions below.
 
 On Linux OS, run the udev_rules\install_rules.sh script before the first run of the FW loader.
 
