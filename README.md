@@ -2,13 +2,13 @@
 
 FW-loader is a cross-platform command line tool you can use to easily switch back and forth between legacy KitProg2 and current KitProg3 on Cypress kits. Upgrading FW to KitProg3 extends the kits' capabilities and adds DAPLink support. Click the [**Release**](https://github.com/cypresssemiconductorco/Firmware-loader/releases) button to download the latest release. Source code for Firmware-loader is not available. The source archives in the release are empty.
 
-Three types of packages are available that are designed to work in the following operating systems:
+There is a package for each of the following operating systems:
 
 - linux
 - macos
 - windows
 
-Download and unzip the appropriate zip archive for your OS. Open a command window in the tool's bin directory, and follow the instructions below.
+From the release page, download and unzip the appropriate zip archive for your OS. Open a command window in the tool's bin directory, and follow the instructions below.
 
 On Linux OS, run the udev_rules\install_rules.sh script before the first run of the FW loader.
 
