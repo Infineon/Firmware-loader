@@ -16,7 +16,7 @@ None
 ### More information
 
 -   [fw-loader
-    README.md](httpshttps://github.com/cypresssemiconductorco/Firmware-loader/blob/master/README.md)
+    README.md](https://github.com/cypresssemiconductorco/Firmware-loader/blob/master/README.md)
 
 -   [Kitprog3 User
     Guide](https://www.cypress.com/documentation/development-kitsboards/kitprog-user-guide)
