@@ -18,8 +18,9 @@ There is a package for each of the following operating systems:
 
 -   windows
 
-From the release page, download and unzip the appropriate zip archive for your
-OS. Open a command window in the tool's bin directory, and follow the
+From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox 1.1 installed an earlier version of the tool here: *install-dir/tools/fw-loader-2.1*.
+
+After installing, open a command window in the tool's bin directory, and follow the
 instructions below.
 
 On Linux OS, run the udev_rules\\install_rules.sh script before the first run of
