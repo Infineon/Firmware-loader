@@ -16,7 +16,7 @@ CY8CKIT-062S2-43012
 
 ### Known Issues
 
-None
+-   if you are not able to transition to DAPLink mode for the CY8CPROTO-062-4343W please contact customercare@cypress.com
 
 ### More information
 
