@@ -1,7 +1,7 @@
 Firmware-loader
 ===============
 
-NOTE: if you cannot transition to DAPLink mode using CY8CPROTO-062-4343W, then get [Firmware-loader 2.2.01](https://github.com/cypresssemiconductorco/Firmware-loader/releases/tag/2.2.01.243), which fixes that problem.
+NOTE: if you cannot transition to DAPLink mode using CY8CPROTO-062-4343W, then get [Firmware-loader 2.2.01](https://github.com/cypresssemiconductorco/Firmware-loader/releases/tag/2.2.01.243) or newer, which fixes that problem.
 
 ### Overview
 
@@ -15,9 +15,7 @@ available.
 There is a package for each of the following operating systems:
 
 -   linux
-
 -   macos
-
 -   windows
 
 From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox 1.1 installed an earlier version of the tool here: *install-dir/tools/fw-loader-2.1*.
@@ -35,13 +33,20 @@ their descriptions.
 
 **--device-list** – Displays the list of connected devices.
 
-**--update-kp3 [device-name]** – Updates the device FW to KitProg3.
+**--update-kp3 [device-name]** – Update the firmware of the specified device to KitProg3.
 
-**--update-kp2 [device-name]** – Updates the device FW to KitProg2.
+**--update-kp2 [device-name]** – Downgrades the firmware of the specified device to KitProg2.
 
-The device name can be skipped if only one KitProg device is connected to the
-PC. Where a device name is required, use the device name from the
-"--device-list" command.
+**--mode <mode> [device-name]** – Switches KitProg3 mode of the specific device. Supported modes are: 'kp3-hid', 'kp3-bulk', 'kp3-bootloader', 'kp3-daplink'.
+
+If you have only one device attached, the [device-name] is optional. Where a device name is required, use the device name from the "--device-list" command.
+
+If a kit does not support DAPLink mode, this mode will be skipped.
+
+**Mode switching in KitProg3**
+The next diagram shows how mode switching happens in KitProg3:
+
+![](.//media/ModeSwitchingDiagram.png)
 
 ### Notes
 
@@ -50,11 +55,11 @@ PC. Where a device name is required, use the device name from the
     to be visible to the FW-loader. Use the Mode Switch button to switch
     KitProg2 to Proprietary mode.
 
-2.  For KitProg3, use the Mode Switch (SW3) button to switch among KitProg3
+2.  For KitProg3, use the Mode Switch (SW3) button or FW-loader command to switch among KitProg3
     bulk, KitProg3 HID, and DAPLink modes
 
-3.  MiniProg4 does not support KitProg2 FW. The following symptoms show that
-    KitProg2 FW is installed on MiniProg4:
+3.  MiniProg4 does not support KitProg2 firmware. The following symptoms show that
+    KitProg2 firmware is installed on MiniProg4:
 
     -   The device is detected as MiniProg4 but does not operate.
 
@@ -65,10 +70,7 @@ PC. Where a device name is required, use the device name from the
 
         -   Error = Out Endpoint is not found.
 
-If the KitProg2 FW is installed on MiniProg4 - to restore the device
-functionality:
-
-Switch the device to Bootloader mode:
+If the KitProg2 firmware is installed on MiniProg4 - switch the device to Bootloader mode to restore the device functionality:
 
 \- unplug MiniProg4 from the USB
 

@@ -1,24 +1,20 @@
-### Fw-loader v2.2 Release Notes
+### Fw-loader v2.2.10 Release Notes
 
 Please refer to the README.md for a complete description of the fw-loader.
 
 ### New Features
 
-\- Supports new kits: CY8CPROTO-064-SB, CY8CPROTO-062S2-43012,
-CY8CKIT-062S2-43012
-
-\- Delivers KitProg3 v1.12 firmware with the following:
-
-1.	Added support of new kits into KitProg3 and DAPLink: CY8CPROTO-064-SB, CY8CPROTO-062S2-43012 and CY8CKIT-062S2-43012
-2.	Added programming of external memory via DAPLink 
-3.	Changed the switching to DAPlink mode – as of v1.11 use 'Mode Select' switch to cycle through the three modes: Bulk, HID and DAPLink. Note: the Custom App switch is deprecated and does not perform any action.
-4.	Replaced DAPlink HID with Bulk endpoints that improves performance
-
-KitProg3 v1.12 fixes a defect that prevented transition to DAPLink mode on some kits.
+\- Supports new kits: CY8CPROTO-062S3-4343W and CY8CKIT-064S2-4343W
+\- Supports KitProg3 mode switching via command
+\- Delivers KitProg3 v1.13 firmware with the following:
+1.	Added support of new kits into KitProg3 and DAPLink: CY8CPROTO-062S3-4343W and CY8CKIT-064S2-4343W 
+\- Bug fixes 
 
 ### Known Issues
 
--   None
+-   KitProg3 firmaware migth not be updated properly on a particular USB port on some Lenovo ThinkPad Pro Docking Station. If you encounter this problem:
+1. switch to a different USB port on the docking station OR
+2. Update KitProg3 firmware in Bootloader mode (press the mode switch while plugging in the board)
 
 ### More information
 
