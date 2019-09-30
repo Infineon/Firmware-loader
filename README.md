@@ -41,12 +41,13 @@ their descriptions.
 
 If you have only one device attached, the [device-name] is optional. Where a device name is required, use the device name from the "--device-list" command.
 
-If a kit does not support DAPLink mode, this mode will be skipped.
-
 **Mode switching in KitProg3**
+
 The next diagram shows how mode switching happens in KitProg3:
 
 ![](.//media/ModeSwitchingDiagram.png)
+
+If a kit does not support DAPLink mode, this mode will be skipped.
 
 ### Notes
 
