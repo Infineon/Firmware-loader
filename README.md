@@ -51,7 +51,7 @@ If a kit does not support DAPLink mode, this mode is skipped.
 
 In addition, the CY8CKIT-062S2-43012 kit supports a special operating mode that allows for two UART connections, rather than a single UART plus bridging (e.g. USB-I2C or USB-SPI). 
 
-You cannot enter UARTx2 if the kit is in DAPLink mode. When the kit is in CMSIS-DAP Bulk or HID mode,  press and hold the mode switch for at least two seconds. In this mode the amber LED displays a double-flash pattern. To exit, press and hold the mode switch for at least two seconds. You return to CMSIS-DAP HID mode. 
+You cannot enter UARTx2 if the kit is in DAPLink mode. When the kit is in CMSIS-DAP Bulk or HID mode,  press and hold the mode switch for at least two seconds. In this mode the amber LED blinks at 2 Hz. To exit, press and hold the mode switch for at least two seconds. You return to CMSIS-DAP HID mode. 
 
 ### Notes
 
