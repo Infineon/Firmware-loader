@@ -27,6 +27,7 @@ On Linux OS, run the udev_rules\\install_rules.sh script before the first run of
 the FW-loader.
 
 **FOSS Packages** 
+
 Part of FW-Loader Open Source – FOSS Packages are located on the https://www.cypress.com/documentation/software-and-drivers/modustoolbox-foss-packages
 
 **Command-line Options**
