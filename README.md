@@ -18,13 +18,16 @@ There is a package for each of the following operating systems:
 -   macos
 -   windows
 
-From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox 1.1 installed an earlier version of the tool here: *install-dir/tools/fw-loader-2.1*.
+From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox 2.0 installed an earlier version of the tool.
 
 After installing, open a command window in the tool's bin directory, and follow the
 instructions below.
 
 On Linux OS, run the udev_rules\\install_rules.sh script before the first run of
 the FW-loader.
+
+**FOSS Packages** 
+Part of FW-Loader Open Source – FOSS Packages are located on the https://www.cypress.com/documentation/software-and-drivers/modustoolbox-foss-packages
 
 **Command-line Options**
 

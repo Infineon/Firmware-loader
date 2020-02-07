@@ -1,13 +1,14 @@
-### Fw-loader v2.2.10 Release Notes
+### Fw-loader v2.2.11 Release Notes
 
 Please refer to the README.md for a complete description of the fw-loader.
 
 ### New Features
 
-- Supports new kits: CY8CPROTO-062S3-4343W and CY8CKIT-064S2-4343W
-- Supports KitProg3 mode switching via command
-- Delivers KitProg3 v1.13 firmware with the following:
-    1. Added support of new kits into KitProg3 and DAPLink: CY8CPROTO-062S3-4343W and CY8CKIT-064S2-4343W 
+- Delivers KitProg3 v1.14 firmware with the following:
+    1. Support JTAG communication for programming and debugging via MiniProg4 probe
+    2. Bug fixes
+- Improves format of displayed info after --device-list execution
+- Adds possibility to update firmware on all connected kits
 - Bug fixes 
 
 ### Known Issues
@@ -32,4 +33,4 @@ Please refer to the README.md for a complete description of the fw-loader.
 
 -   [Cypress Semiconductor](http://www.cypress.com)
 
-© Cypress Semiconductor Corporation, 2019.
+© Cypress Semiconductor Corporation, 2019-2020.
