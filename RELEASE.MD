@@ -14,7 +14,7 @@ Please refer to the README.md for a complete description of the fw-loader.
 
 ### Known Issues
 
--   KitProg3 firmaware migth not be updated properly on a particular USB port on some Lenovo ThinkPad Pro Docking Station. If you encounter this problem:
+-   KitProg3 firmware might not be updated properly on a particular USB port on some Lenovo ThinkPad Pro Docking Station. If you encounter this problem:
     1. switch to a different USB port on the docking station OR
     2. Update KitProg3 firmware in Bootloader mode (press the mode switch while plugging in the board)
 
