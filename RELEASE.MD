@@ -1,15 +1,14 @@
-### Fw-loader v2.2.11 Release Notes
+### Fw-loader v2.3.0 Release Notes
 
 Please refer to the README.md for a complete description of the fw-loader.
 
 ### New Features
 
-- Delivers KitProg3 v1.14 firmware with the following:
-    1. Support of new kits in KitProg3 and DAPLink: CY8CPROTO-064B0S3, CY8CPROTO-064B0S1-BLE and CY8CKIT-064B0S2-4343W
-    2. Support JTAG communication for programming and debugging via MiniProg4 probe
+- Delivers KitProg3 v1.20 firmware with the following:
+    1. Improve performance over SWD in KitProg3 modes
+    2. Hide KitProg3 HID mode - use the Mode Switch (SW3) button or FW-loader command to switch among   KitProg3 bulk and DAPLink modes. If need to use KitProg3 HID, use FW-loader command only.
+    3. Add support of DAPlink mode for MiniProg4 probe. Note: mass storage functionality is not available in this case
     3. Bug fixes
-- Improves format of displayed info after --device-list execution
-- Adds possibility to update firmware on all connected kits
 - Bug fixes 
 
 ### Known Issues

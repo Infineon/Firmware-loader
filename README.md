@@ -18,7 +18,7 @@ There is a package for each of the following operating systems:
 -   macos
 -   windows
 
-From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox 2.0 installed an earlier version of the tool.
+From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox 2.0 on newer release installs this tool also, but on the GitHub repo you can find always the latest release.
 
 After installing, open a command window in the tool's bin directory, and follow the
 instructions below.
@@ -55,7 +55,7 @@ If a kit does not support DAPLink mode, this mode is skipped.
 
 In addition, the CY8CKIT-062S2-43012 kit supports a special operating mode that allows for two UART connections, rather than a single UART plus bridging (e.g. USB-I2C or USB-SPI). 
 
-You cannot enter UARTx2 if the kit is in DAPLink mode. When the kit is in CMSIS-DAP Bulk or HID mode,  press and hold the mode switch for at least two seconds. In this mode the amber LED blinks at 2 Hz. To exit, press and hold the mode switch for at least two seconds. You return to CMSIS-DAP HID mode. 
+You cannot enter UARTx2 if the kit is in DAPLink mode. When the kit is in CMSIS-DAP Bulk or HID mode, press and hold the mode switch for at least two seconds. In this mode the amber LED blinks at 2 Hz. To exit, press and hold the mode switch for at least two seconds. You return to CMSIS-DAP bulk mode. 
 
 ### Notes
 
@@ -65,7 +65,7 @@ You cannot enter UARTx2 if the kit is in DAPLink mode. When the kit is in CMSIS-
     KitProg2 to Proprietary mode.
 
 2.  For KitProg3, use the Mode Switch (SW3) button or FW-loader command to switch among KitProg3
-    bulk, KitProg3 HID, and DAPLink modes
+    bulk and DAPLink modes. If need to use KitProg3 HID, use FW-loader command only.
 
 3.  MiniProg4 does not support KitProg2 firmware. The following symptoms show that
     KitProg2 firmware is installed on MiniProg4:
