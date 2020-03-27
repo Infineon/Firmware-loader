@@ -26,10 +26,6 @@ instructions below.
 On Linux OS, run the udev_rules\\install_rules.sh script before the first run of
 the FW-loader.
 
-**FOSS Packages** 
-
-Part of FW-Loader Open Source – FOSS Packages are located on the https://www.cypress.com/documentation/software-and-drivers/modustoolbox-foss-packages
-
 **Command-line Options**
 
 **--help (or no arguments)** - Displays the list of supported commands with
@@ -47,11 +43,9 @@ If you have only one device attached, the [device-name] is optional. Where a dev
 
 **Mode switching in KitProg3**
 
-Push the mode switch button on the kit to rotate among the supported modes.
+Push the mode switch button on the kit to switch modes. If a kit does not support DAPLink mode, the mode switch has no effect.
 
 ![](.//media/ModeSwitchingDiagram.png)
-
-If a kit does not support DAPLink mode, this mode is skipped.
 
 In addition, the CY8CKIT-062S2-43012 kit supports a special operating mode that allows for two UART connections, rather than a single UART plus bridging (e.g. USB-I2C or USB-SPI). 
 
@@ -64,8 +58,9 @@ You cannot enter UARTx2 if the kit is in DAPLink mode. When the kit is in CMSIS-
     to be visible to the FW-loader. Use the Mode Switch button to switch
     KitProg2 to Proprietary mode.
 
-2.  For KitProg3, use the Mode Switch (SW3) button or FW-loader command to switch among KitProg3
-    bulk and DAPLink modes. If need to use KitProg3 HID, use FW-loader command only.
+2.  For KitProg3, the Mode Switch (SW3) button switches between CMSIS DAP bulk and
+    DAPLink modes. You can use the command line to get into a legacy mode, CMSIS DAP
+    using HID end points.
 
 3.  MiniProg4 does not support KitProg2 firmware. The following symptoms show that
     KitProg2 firmware is installed on MiniProg4:
@@ -90,6 +85,10 @@ If the KitProg2 firmware is installed on MiniProg4 - switch the device to Bootlo
 \- release the button
 
 Perform the "--update-kp3" command as described above.
+
+**FOSS Packages** 
+
+FW-Loader uses some Open Source packages. FOSS Packages are located on the https://www.cypress.com/documentation/software-and-drivers/modustoolbox-foss-packages
 
 ### More Information
 
