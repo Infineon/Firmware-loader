@@ -4,7 +4,7 @@ Firmware-loader
 ### Overview
 
 FW-loader is a cross-platform command line tool you can use to upgrade the KitProg3 FW on Cypress kits or MiniProg4.
-Click the [Release](https://github.com/cypresssemiconductorco/Firmware-loader/releases) button to download the latest release.
+[Download the latest release](https://github.com/cypresssemiconductorco/Firmware-loader/releases) which includes KitProg3 v1.21.707.
 
 There is a package for each of the following operating systems:
 
