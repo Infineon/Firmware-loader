@@ -1,8 +1,6 @@
 Firmware-loader
 ===============
 
-NOTE: if you cannot transition to DAPLink mode using CY8CPROTO-062-4343W, then get [Firmware-loader 2.2.01](https://github.com/cypresssemiconductorco/Firmware-loader/releases/tag/2.2.01.243) or newer, which fixes that problem.
-
 ### Overview
 
 FW-loader is a cross-platform command line tool you can use to easily switch
