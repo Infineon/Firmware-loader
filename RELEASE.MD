@@ -1,12 +1,13 @@
-### fw-loader v2.3.1 Release Notes
+### fw-loader v3.0.0 Release Notes
 
 Please refer to the README.md for a complete description of the fw-loader.
 
 ### New Features
 
-- Delivers KitProg3 v1.21.707 firmware with:
-    1. Support of external memory on CYW9P62S1-43012EVB-01 kit via mass storage in DAplink mode
-    3. Bug fixes including issue with PSoC6 and PSoC4 kits handing after multiple rapid operations via openOCD (ID PROGTOOLS-1490) detected with KitProg3 1.20 firmware 
+- Delivers KitProg3 v2.00.809 firmware with:
+    1. Support of PSoC64-2M and PSoC64-512K production MCUs and kits
+    Note: KitProg3 v2.00.809 does not support pre-production versions of PSoC64 MCUs. If you would like to continue to work with pre-production versions, please use the previous releases of KitProg3 and fw-loader
+- Support  of new CY8CKIT-064S0S2-4343W kit
 
 ### Known Issues
 
