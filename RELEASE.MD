@@ -31,6 +31,6 @@ Please refer to the README.md for a complete description of the fw-loader.
 -   [ModusToolbox Device Configurator Tool
     Guide](https://www.cypress.com/ModusToolboxDeviceConfig)
 
--   [Cypress Semiconductor](http://www.cypress.com)
+-   [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 
 © Cypress Semiconductor Corporation, 2019-2020.
