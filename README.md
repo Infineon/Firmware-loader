@@ -4,7 +4,7 @@ Firmware-loader
 ### Overview
 
 FW-loader is a cross-platform command line tool you can use to upgrade the KitProg3 FW on Cypress kits or MiniProg4.
-[Download the latest release](https://github.com/cypresssemiconductorco/Firmware-loader/releases) which includes KitProg3 v2.00.809.
+[Download the latest release](https://github.com/cypresssemiconductorco/Firmware-loader/releases) which includes KitProg3 v2.10.878.
 
 There is a package for each of the following operating systems:
 
@@ -34,8 +34,9 @@ their descriptions.
 **--update-kp2 [device-name]** – Downgrades the firmware of the specified device to KitProg2.
 
 **--mode <mode> [device-name]** – Switches KitProg3 mode of the specific device. Supported modes are: 'kp3-hid', 'kp3-bulk', 'kp3-bootloader', 'kp3-daplink'.
+On Windows hosts ‘kp3-bulk’ mode cannot support simultaneous I2C/SPI bridging (e.g. for CapSense tuning) - switch to ‘kp3-hid’ instead.
 
-If you have only one device attached, the [device-name] is optional. Where a device name is required, use the device name from the "--device-list" command.
+If you have only one device attached, the [device-name] is optional. Where a device name is required, use the device name from the "--device-list" command. To update firmware of all the connected KitProg3 devices use 'all' specifier.
 
 **Mode switching in KitProg3**
 
