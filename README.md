@@ -4,7 +4,7 @@ Firmware-loader
 ### Overview
 
 FW-loader is a cross-platform command line tool you can use to upgrade the KitProg3 FW on Cypress kits or MiniProg4.
-[Download the latest release](https://github.com/cypresssemiconductorco/Firmware-loader/releases) which includes KitProg3 v2.10.878.
+[Download the latest release](https://github.com/cypresssemiconductorco/Firmware-loader/releases) which includes KitProg3 v2.21.1005.
 
 There is a package for each of the following operating systems:
 
@@ -20,7 +20,7 @@ instructions below.
 On Linux OS, run the udev_rules\\install_rules.sh script before the first run of
 the FW-loader.
 
-On the Catalina version of macOS, you may see a dialog what Apple cannot check this package for malicious software. If this happens, please follow [instructions](https://support.apple.com/guide/mac-help/open-an-app-by-overriding-security-settings-mh40617/10.15/mac/10.15) from Apple.
+On the Catalina version of macOS and later, you may see a dialog what Apple cannot check this package for malicious software. If this happens, please follow [instructions](https://support.apple.com/guide/mac-help/open-an-app-by-overriding-security-settings-mh40617/10.15/mac/10.15) from Apple.
 
 **Command-line Options**
 
