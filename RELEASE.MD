@@ -24,18 +24,16 @@ Please refer to the README.md for a complete description of the fw-loader.
 
 ### More information
 
--   [fw-loader
-    README.md](https://github.com/cypresssemiconductorco/Firmware-loader/blob/master/README.md)
+-   [fw-loader README.md](https://github.com/cypresssemiconductorco/Firmware-loader/blob/master/README.md)
 
--   [Kitprog3 User
-    Guide](https://www.cypress.com/documentation/development-kitsboards/kitprog-user-guide)
+-   [Kitprog3 User Guide](https://www.cypress.com/documentation/development-kitsboards/kitprog-user-guide)
 
--   [ModusToolbox Software Environment, Quick Start Guide, Documentation, and
-    Videos](https://www.cypress.com/products/modustoolbox-software-environment)
+-   [KitProg Host Protocol Interface](https://www.cypress.com/file/520056/download)
 
--   [ModusToolbox Device Configurator Tool
-    Guide](https://www.cypress.com/ModusToolboxDeviceConfig)
+-   [ModusToolbox Software Environment, Quick Start Guide, Documentation, and Videos](https://www.cypress.com/products/modustoolbox-software-environment)
+
+-   [ModusToolbox Device Configurator Tool Guide](https://www.cypress.com/ModusToolboxDeviceConfig)
 
 -   [Cypress Semiconductor, an Infineon Technologies Company](http://www.cypress.com)
 
-© Cypress Semiconductor Corporation, 2019-2020.
+© Cypress Semiconductor Corporation, 2019-2021.
