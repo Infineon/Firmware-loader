@@ -4,7 +4,7 @@ Firmware-loader
 ### Overview
 
 FW-loader is a cross-platform command line tool you can use to upgrade the KitProg3 FW on Cypress kits or MiniProg4.
-[Download the latest release](https://github.com/cypresssemiconductorco/Firmware-loader/releases) which includes KitProg3 v2.21.1005.
+[Download the latest release](https://github.com/cypresssemiconductorco/Firmware-loader/releases) which includes KitProg3 v2.30.XXXX.
 
 There is a package for each of the following operating systems:
 
@@ -12,7 +12,7 @@ There is a package for each of the following operating systems:
 -   macos
 -   windows
 
-From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox 2.0 or newer release installs this tool also, but on the GitHub repo you can find always the latest release.
+From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox™ 2.0 or newer release installs this tool also, but on the GitHub repo you can find always the latest release.
 
 After installing, open a command window in the tool's bin directory, and follow the
 instructions below.
@@ -35,6 +35,8 @@ their descriptions.
 
 **--mode <mode> [device-name]** – Switches KitProg3 mode of the specific device. Supported modes are: 'kp3-hid', 'kp3-bulk', 'kp3-bootloader', 'kp3-daplink'.
 On Windows hosts ‘kp3-bulk’ mode cannot support simultaneous I2C/SPI bridging (e.g. for CapSense tuning) - switch to ‘kp3-hid’ instead.
+
+**--info [device-name]** – Displays the device information. Device information is displayed only for KitProg3 devices which support KitProg3 Unique ID Record.
 
 If you have only one device attached, the [device-name] is optional. Where a device name is required, use the device name from the "--device-list" command. To update firmware of all the connected KitProg3 devices use 'all' specifier.
 
