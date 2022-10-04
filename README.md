@@ -4,7 +4,7 @@ Firmware-loader
 ### Overview
 
 FW-loader is a cross-platform command line tool you can use to upgrade the KitProg3 FW on Cypress kits or MiniProg4.
-[Download the latest release](https://github.com/cypresssemiconductorco/Firmware-loader/releases) which includes KitProg3 v2.30.XXXX.
+[Download the latest release](https://github.com/Infineon/Firmware-loader/releases) which includes KitProg3 v2.40.1241.
 
 There is a package for each of the following operating systems:
 
@@ -27,16 +27,20 @@ On the Catalina version of macOS and later, you may see a dialog what Apple cann
 **--help (or no arguments)** - Displays the list of supported commands with
 their descriptions.
 
-**--device-list** – Displays the list of connected devices.
+**--device-list** – Displays the list of connected supported KitProg3-based devices.
 
-**--update-kp3 [device-name]** – Update the firmware of the specified device to KitProg3.
+**--update-kp3 [device-name]** – Updates the Firmware of the KitProg-based device to KitProg3.
 
-**--update-kp2 [device-name]** – Downgrades the firmware of the specified device to KitProg2.
+**--update-kp2 [device-name]** – Updates the Firmware of the KitProg-based device to KitProg2.
 
-**--mode <mode> [device-name]** – Switches KitProg3 mode of the specific device. Supported modes are: 'kp3-hid', 'kp3-bulk', 'kp3-bootloader', 'kp3-daplink'.
+**--mode <mode> [device-name]** – Switches KitProg3 mode of the specific device. Supported modes are: 'kp3-hid', 'kp3-bulk', 'kp3-bootloader', 'kp3-daplink', 'kp3-dualuart'.
 On Windows hosts ‘kp3-bulk’ mode cannot support simultaneous I2C/SPI bridging (e.g. for CapSense tuning) - switch to ‘kp3-hid’ instead.
 
 **--info [device-name]** – Displays the device information. Device information is displayed only for KitProg3 devices which support KitProg3 Unique ID Record.
+
+**--set-kp3-gpio-pin <pin_number> <pin_mode> <state>** - Sets desired operational mode and state on GPIO pin of KitProg3-based device
+
+**--read-kp3-gpio-pin <pin_number>** - Displays the current state of GPIO pin of KitProg3-based device
 
 If you have only one device attached, the [device-name] is optional. Where a device name is required, use the device name from the "--device-list" command. To update firmware of all the connected KitProg3 devices use 'all' specifier.
 
@@ -87,8 +91,8 @@ Perform the "--update-kp3" command as described above.
 
 **FOSS Packages** 
 
-FW-Loader uses some Open Source packages. FOSS Packages are located on the https://www.cypress.com/documentation/software-and-drivers/modustoolbox-foss-packages
+FW-Loader uses some Open Source packages. FOSS Packages are located on the https://www.infineon.com/cms/en/design-support/software/free-and-open-source-software-foss/modustoolbox-foss-packages/
 
 ### More Information
 
-[Fw-loader Release Notes](https://github.com/cypresssemiconductorco/Firmware-loader/blob/master/RELEASE.MD)
+[Fw-loader Release Notes](https://github.com/Infineon/Firmware-loader/blob/master/RELEASE.MD)
