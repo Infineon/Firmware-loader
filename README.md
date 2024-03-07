@@ -4,7 +4,7 @@ Firmware-loader
 ### Overview
 
 FW-loader is a cross-platform command line tool you can use to upgrade the KitProg3 FW on Cypress kits or MiniProg4.
-[Download the latest release](https://github.com/Infineon/Firmware-loader/releases) which includes KitProg3 v2.50.0.1383.
+[Download the latest release](https://github.com/Infineon/Firmware-loader/releases) which includes KitProg3 v2.50.1.1401.
 
 There is a package for each of the following operating systems:
 
@@ -12,7 +12,7 @@ There is a package for each of the following operating systems:
 -   macos
 -   windows
 
-From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox™ 2.0 or newer release installs this tool also, but on the GitHub repo you can find always the latest release.
+From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox™ 3.2 or newer release installs this tool also, but on the GitHub repo you can find always the latest release.
 
 After installing, open a command window in the tool's bin directory, and follow the
 instructions below.
@@ -20,7 +20,7 @@ instructions below.
 On Linux OS, run the udev_rules\\install_rules.sh script before the first run of
 the FW-loader.
 
-On the Catalina version of macOS and later, you may see a dialog that Apple cannot check this package for malicious software. If this happens, please follow [instructions](https://support.apple.com/guide/mac-help/open-an-app-by-overriding-security-settings-mh40617/10.15/mac/10.15) from Apple.
+On the Catalina version of macOS and later, you may see a dialog what Apple cannot check this package for malicious software. If this happens, please follow [instructions](https://support.apple.com/guide/mac-help/open-an-app-by-overriding-security-settings-mh40617/10.15/mac/10.15) from Apple.
 
 **Command-line Options**
 
@@ -41,6 +41,13 @@ On Windows hosts ‘kp3-bulk’ mode cannot support simultaneous I2C/SPI bridgin
 **--set-kp3-gpio-pin <pin_number> <pin_mode> <state>** - Sets desired operational mode and state on GPIO pin of KitProg3-based device
 
 **--read-kp3-gpio-pin <pin_number>** - Displays the current state of GPIO pin of KitProg3-based device
+
+**--set-kp3-flow-control <port_number> <mode> [full-device-name|serial-num]** - Configures the UART flow control mode of the KitProg3 UART for a KitProg3-based device. If multiple supported
+KitProg3-based devices are connected, specify the full device name or serial number. This is applicable only for KitProg3-based devices where UART HW flow control is supported. These can be found in the KitProg3 User Guide.
+
+**--get-kp3-flow-control <port_number> [full-device-name|serial-num]** - Retrieves the UART flow control mode of the KitProg3 UART for a KitProg3-based device. If multiple supported
+KitProg3-based devices are connected, specify the full device name or serial number. This is applicable only for KitProg3-based devices where UART HW flow control is supported. These can be found in the KitProg3 User
+Guide.
 
 If you have only one device attached, the [device-name] is optional. Where a device name is required, use the device name from the "--device-list" command. To update firmware of all the connected KitProg3 devices use 'all' specifier.
 
