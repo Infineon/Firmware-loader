@@ -1,10 +1,10 @@
-### fw-loader v3.8.0 Release Notes
+### fw-loader v3.9.0 Release Notes
 
 The Firmware Loader (fw-loader) is a cross-platform command line tool you can use to upgrade the KitProg3 firmware on our kits or MiniProg4. Please refer to the README file for a complete description of the fw-loader tool.
 
 ### New Features
 
-- Contains updated CyBridge 3.8.0 with support of Jlink OB probe
+- Contains updated CyBridge 3.9.0
 
 ### Known Issues
 None
@@ -27,5 +27,5 @@ None
 
 -   [Cypress Semiconductor, an Infineon Technologies Company](http://www.infineon.com)
 
-© Cypress Semiconductor Corporation, 2019-2024. This document is the property of Cypress Semiconductor Corporation, an Infineon Technologies company, and its affiliates ("Cypress"). 
+© Cypress Semiconductor Corporation, 2019-2025. This document is the property of Cypress Semiconductor Corporation, an Infineon Technologies company, and its affiliates ("Cypress"). 
 
