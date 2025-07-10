@@ -4,15 +4,15 @@ Firmware-loader
 ### Overview
 
 FW-loader is a cross-platform command line tool you can use to upgrade the KitProg3 FW on Cypress kits or MiniProg4.
-[Download the latest release](https://github.com/Infineon/Firmware-loader/releases) which includes KitProg3 V2.80.0.1506.
+[Download the latest release](https://github.com/Infineon/Firmware-loader/releases) which includes KitProg3 V2.80.1.1529.
 
 There is a package for each of the following operating systems:
 
--   linux
+-   ubuntu
 -   macos
 -   windows
 
-From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox™ 3.4 or newer release installs this tool also, but on the GitHub repo you can find always the latest release.
+From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox™ Programming Tools 1.5 or newer release installs this tool also, but on the GitHub repo you can find always the latest release.
 
 After installing, open a command window in the tool's bin directory, and follow the
 instructions below.
@@ -102,4 +102,22 @@ FW-Loader uses some Open Source packages. FOSS Packages are located on the https
 
 ### More Information
 
-[Fw-loader Release Notes](https://github.com/Infineon/Firmware-loader/blob/master/RELEASE.MD)
+-   [Fw-loader Release Notes](https://github.com/Infineon/Firmware-loader/blob/master/RELEASE.MD)
+
+-   [fw-loader
+    README.md](https://github.com/Infineon/Firmware-loader/blob/master/README.md)
+
+-   [fw-loader
+    User Guide](https://www.infineon.com/fw-loaderuserguide)
+
+-   [Kitprog3 User
+    Guide](https://www.infineon.com/documentation/development-kitsboards/kitprog-user-guide)
+
+-   [KitProg Host Protocol Interface](https://www.infineon.com/dgdl/Infineon-KitProg_Host_Protocol_Interface-UserManual-v01_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0f0125c8185e)
+
+-   [ModusToolbox™ Programming Tools and Documentation](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/modustoolbox-programming-tools)
+
+-   [Cypress Semiconductor, an Infineon Technologies Company](http://www.infineon.com)
+
+© Cypress Semiconductor Corporation, 2019-2025. This document is the property of Cypress Semiconductor Corporation, an Infineon Technologies company, and its affiliates ("Cypress"). 
+
