@@ -1,10 +1,12 @@
-### fw-loader v3.11.0 Release Notes
+### fw-loader v3.12.0 Release Notes
 
 The Firmware Loader (fw-loader) is a cross-platform command line tool you can use to upgrade the KitProg3 firmware on our kits or MiniProg4. Please refer to the README file for a complete description of the fw-loader tool.
 
 ### New Features
 
-- Contains updated CyBridge 3.11.0 with macOS 26 Tahoe support
+- Contains updated CyBridge 3.12.0
+- Adds additional UART mode configuration for a KitProg3-based MiniProg4 device
+- Support only ARM CPUs for Mac OSs
 
 ### Known Issues
 None
@@ -26,5 +28,5 @@ None
 
 -   [Cypress Semiconductor, an Infineon Technologies Company](http://www.infineon.com)
 
-© Cypress Semiconductor Corporation, 2019-2025. This document is the property of Cypress Semiconductor Corporation, an Infineon Technologies company, and its affiliates ("Cypress"). 
+© Infineon Technologies AG, 2019-2026. This document is the property of Infineon Technologies AG and its affiliates ("Infineon").
 

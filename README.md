@@ -4,15 +4,15 @@ Firmware-loader
 ### Overview
 
 FW-loader is a cross-platform command line tool you can use to upgrade the KitProg3 FW on Cypress kits or MiniProg4.
-[Download the latest release](https://github.com/Infineon/Firmware-loader/releases) which includes KitProg3 V2.80.1.1529.
+[Download the latest release](https://github.com/Infineon/Firmware-loader/releases) which includes KitProg3 V2.81.0.1663.
 
 There is a package for each of the following operating systems:
 
 -   ubuntu
--   macos
+-   macos (only ARM CPU)
 -   windows
 
-From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox™ Programming Tools 1.7 or newer release installs this tool also, but on the GitHub repo you can find always the latest release.
+From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox™ Programming Tools 1.8 or newer release installs this tool also, but on the GitHub repo you can find always the latest release.
 
 After installing, open a command window in the tool's bin directory, and follow the
 instructions below.
@@ -48,6 +48,12 @@ KitProg3-based devices are connected, specify the full device name or serial num
 **--get-kp3-flow-control <port_number> [full-device-name|serial-num]** - Retrieves the UART flow control mode of the KitProg3 UART for a KitProg3-based device. If multiple supported
 KitProg3-based devices are connected, specify the full device name or serial number. This is applicable only for KitProg3-based devices where UART HW flow control is supported. These can be found in the KitProg3 User
 Guide.
+
+**--set-kp3-uart-mode <port_number> <mode> [full-device-name|serial-num]** - Configures the UART mode of the KitProg3 UART for a MiniProg4 device. If multiple supported
+KitProg3-based devices are connected, specify the full device name or serial number.
+
+**--get-kp3-uart-mode <port_number> [full-device-name|serial-num]** - Retrieves the UART mode of the KitProg3 UART for a MiniProg4 device. If multiple supported
+KitProg3-based devices are connected, specify the full device name or serial number.
 
 If you have only one device attached, the [device-name] is optional. Where a device name is required, use the device name from the "--device-list" command. To update firmware of all the connected KitProg3 devices use 'all' specifier.
 
@@ -119,5 +125,5 @@ FW-Loader uses some Open Source packages. FOSS Packages are located on the https
 
 -   [Cypress Semiconductor, an Infineon Technologies Company](http://www.infineon.com)
 
-© Cypress Semiconductor Corporation, 2019-2025. This document is the property of Cypress Semiconductor Corporation, an Infineon Technologies company, and its affiliates ("Cypress"). 
+© Infineon Technologies AG, 2019-2026. This document is the property of Infineon Technologies AG and its affiliates ("Infineon").
 
