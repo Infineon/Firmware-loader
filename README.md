@@ -4,15 +4,15 @@ Firmware-loader
 ### Overview
 
 FW-loader is a cross-platform command line tool you can use to upgrade the KitProg3 FW on Cypress kits or MiniProg4.
-[Download the latest release](https://github.com/Infineon/Firmware-loader/releases) which includes KitProg3 V2.82.0.1735.
+[Download the latest release](https://github.com/Infineon/Firmware-loader/releases) which includes KitProg3 V2.90.0.1804.
 
 There is a package for each of the following operating systems:
 
 -   ubuntu
--   macos (only ARM CPU)
+-   macos
 -   windows
 
-From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox™ Programming Tools 1.9 or newer release installs this tool also, but on the GitHub repo you can find always the latest release.
+From the release page, download and unzip the appropriate zip archive for your OS. You can put the tool in any convenient location. ModusToolbox™ Programming Tools 2.0 or newer release installs this tool also, but on the GitHub repo you can find always the latest release.
 
 After installing, open a command window in the tool's bin directory, and follow the
 instructions below.
@@ -36,7 +36,7 @@ their descriptions.
 **--mode <mode> [device-name]** – Switches KitProg3 mode of the specific device. Supported modes are: 'kp3-hid', 'kp3-bulk', 'kp3-bootloader', 'kp3-daplink', 'kp3-dualuart'.
 On Windows hosts ‘kp3-bulk’ mode cannot support simultaneous I2C/SPI bridging (e.g. for CapSense tuning) - switch to ‘kp3-hid’ instead.
 
-**--info [device-name]** – Displays the device information. Device information is displayed only for KitProg3 devices which support KitProg3 Unique ID Record.
+**--info [device-name]** – Displays parsed KitProg3 Unique ID Record and, where supported, target EEPROM details (target device, QSPI devices, Wi-Fi/Bluetooth module, and companion device). Availability depends on KitProg3 support for the Unique ID Record.
 
 **--set-kp3-gpio-pin <pin_number> <pin_mode> <state>** - Sets desired operational mode and state on GPIO pin of KitProg3-based device
 
@@ -123,7 +123,7 @@ FW-Loader uses some Open Source packages. FOSS Packages are located on the https
 
 -   [ModusToolbox™ Programming Tools and Documentation](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/modustoolbox-programming-tools)
 
--   [Cypress Semiconductor, an Infineon Technologies Company](http://www.infineon.com)
+-   [Infineon Technologies Company](http://www.infineon.com)
 
 © Infineon Technologies AG, 2019-2026. This document is the property of Infineon Technologies AG and its affiliates ("Infineon").
 
