@@ -25,7 +25,7 @@ None
 
 -   [ModusToolbox™ Programming Tools and Documentation](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/modustoolbox-programming-tools)
 
--   [Cypress Semiconductor, an Infineon Technologies Company](http://www.infineon.com)
+-   [Infineon Technologies Company](http://www.infineon.com)
 
 © Infineon Technologies AG, 2019-2026. This document is the property of Infineon Technologies AG and its affiliates ("Infineon").
 
